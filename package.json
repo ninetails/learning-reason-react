@@ -1,0 +1,32 @@
+{
+  "name": "learning-reason-react",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "precommit": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ninetails/learning-reason-react.git"
+  },
+  "keywords": [],
+  "author": "Carlos Kazuo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ninetails/learning-reason-react/issues"
+  },
+  "homepage": "https://github.com/ninetails/learning-reason-react#readme",
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint": "^5.1.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "husky": "^0.14.3"
+  }
+}
