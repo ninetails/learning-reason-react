@@ -74,3 +74,11 @@ typings/
 
 # VSCode
 .vscode
+
+# Reason
+.merlin
+.bsb.lock
+lib/bs/
+
+# Project
+dist
