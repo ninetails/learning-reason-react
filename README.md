@@ -1,18 +1,13 @@
-# Basic Reason Template
+# learning-reason-react
+> https://blog.manifold.co/building-reason-react-with-parcel-bundler-cb651278bf47
 
-Hello! This project allows you to quickly get started with Reason and BuckleScript. If you wanted a more sophisticated version, try the `react` template (`bsb -theme react -init .`).
-
-# Build
+## Build
 ```
-npm run build
-```
-
-# Build + Watch
-
-```
-npm run start
+yarn build
 ```
 
+## Build + Watch
 
-# Editor
-If you use `vscode`, Press `Windows + Shift + B` it will build automatically
+```
+yarn dev
+```
