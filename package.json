@@ -24,5 +24,10 @@
   "devDependencies": {
     "bs-platform": "^4.0.0",
     "parcel-bundler": "^1.9.7"
+  },
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "reason-react": "^0.4.2"
   }
 }
