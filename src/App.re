@@ -1,4 +1,4 @@
-let component = ReasonReact.statelessComponent("App");
+let component = ReasonReact.statelessComponent("App")
 
 let make = (_) => {
   ...component,

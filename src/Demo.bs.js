@@ -6,6 +6,14 @@ import * as App$LearningReasonReact from "./App.bs.js";
 
 ReactDOMRe.renderToElementWithId(ReasonReact.element(undefined, undefined, App$LearningReasonReact.make(/* array */[])), "root");
 
+var match = module.hot;
+
+if (match == null) {
+  console.log("We are not hot");
+} else {
+  match.accept();
+}
+
 export {
   
 }
